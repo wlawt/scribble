@@ -1,13 +1,13 @@
 import './App.css';
 import { Component } from 'react'
 
-import Draw from './scribble/Draw'
+import DrawArea from './scribble/DrawArea'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Draw />
+        <DrawArea />
       </div>
     );
   }
