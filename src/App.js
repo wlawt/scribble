@@ -1,12 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import { Component } from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      h
-    </div>
-  );
+import Draw from './scribble/Draw'
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Draw />
+      </div>
+    );
+  }
 }
 
 export default App;
